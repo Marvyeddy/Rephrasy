@@ -34,7 +34,7 @@ const Hero = () => {
           placeholder='Paste your AI-generated content here...'
           cols={30}
           rows={10}
-          className='text-base placeholder:opacity-80 placeholder:text-black placeholder:font-normal outline-none'
+          className='text-base overflow-hidden placeholder:opacity-80 placeholder:text-black placeholder:font-normal outline-none'
         />
         <div className='flex items-center justify-between md:flex-row flex-col gap-4'>
           <button className='py-[2px] px-2 rounded-[100px] bg-[#F5F5F5] text-xs leading-5 tracing-[0.04em] text-[#312F2F96]'>
