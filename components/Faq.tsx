@@ -9,7 +9,7 @@ import {
 
 const Faq = () => {
   return (
-    <div className='bg-gradient-to-b from-[#b83e3e07] to-[#FFFFFF] min-h-screen pt-[159px]'>
+    <section className='bg-gradient-to-b from-[#b83e3e07] to-[#FFFFFF] min-h-screen pt-[159px]'>
       <div className='flex items-center gap-3 bg-[#FBF6F0] w-[50px] h-5 justify-center rounded-full mx-auto mt-9'>
         <Image src={'/faq.svg'} alt='' width={10.88} height={10.88} />
         <h2 className='font-medium text-xs'>FAQ</h2>
@@ -86,7 +86,7 @@ const Faq = () => {
           </AccordionItem>
         </Accordion>
       </div>
-    </div>
+    </section>
   );
 };
 

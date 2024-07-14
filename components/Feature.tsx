@@ -16,7 +16,7 @@ const Feature = () => {
         </h2>
       </div>
 
-      <div className='mt-[60px] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-max mx-auto'>
+      <ul className='mt-[60px] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-max mx-auto'>
         <Card img={'/Frame 1.svg'}>
           <h2 className='text-xl leading-5 text-center font-bold'>
             Humanize AI Text
@@ -71,7 +71,7 @@ const Feature = () => {
             using.
           </p>
         </Card>
-      </div>
+      </ul>
     </div>
   );
 };

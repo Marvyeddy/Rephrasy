@@ -3,7 +3,7 @@ import React from 'react';
 
 const Explore = () => {
   return (
-    <div className='relative'>
+    <section className='relative'>
       <div className='w-[98.66%] md:mt-[11px] mt-10 bg-black mx-auto rounded-[20px] py-[71px]'>
         <div className='w-max mx-auto flex flex-col gap-3 items-center'>
           <div className='flex items-center gap-3 bg-[#FBF6F0] w-[116px] h-5 justify-center rounded-full'>
@@ -64,7 +64,7 @@ const Explore = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

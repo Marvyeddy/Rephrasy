@@ -9,10 +9,10 @@ const Card = ({
   img: string;
 }) => {
   return (
-    <div className='w-[378px] flex flex-col items-center text-center rounded-[18px] p-5 gap-6'>
+    <li className='w-[378px] flex flex-col items-center text-center rounded-[18px] p-5 gap-6'>
       <Image src={img} alt='' width={48} height={48} />
       {children}
-    </div>
+    </li>
   );
 };
 

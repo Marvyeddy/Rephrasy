@@ -16,7 +16,7 @@ const Pricing = () => {
         </h2>
       </div>
 
-      <div className='lg:mt-[59px] lg:w-[1073px]  w-max mx-auto flex md:flex-row flex-col gap-8 px-6'>
+      <div className='lg:mt-[59px] lg:w-[1073px]  w-max mx-auto flex lg:flex-row flex-col gap-8 px-6'>
         <PaymentCard
           button='Get Started'
           month
@@ -49,7 +49,7 @@ const Pricing = () => {
 
       <div className='w-[1036px] border border-black/10 mb-[22.5px] mt-[25px] mx-auto'></div>
 
-      <div className='md:w-[1073px] w-[330px] h-[217px] mt-[58px] mx-auto flex flex-col md:flex-row justify-between md:items-start items-center px-8'>
+      <div className='lg:w-[1073px] md:w-[730px] w-[330px] h-[217px] mt-[58px] mx-auto flex flex-col md:flex-row justify-between md:items-start items-center px-8'>
         <div className='w-max flex md:block flex-col items-center gap-9'>
           <h2 className='md:w-[331px] w-[260px] h-[80px] md:text-[34.45px] text-3xl text-center md:text-start font-bold leading-[40px] mt-[38px]'>
             Unlock more with only the{' '}

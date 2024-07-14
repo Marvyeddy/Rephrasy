@@ -22,7 +22,7 @@ const Footer = () => {
         </button>
       </div>
 
-      <div className='lg:w-[1112px] md:w-[900px] flex md:flex-row flex-col items-center justify-between mx-auto mt-[76px] pb-[83px] gap-7'>
+      <div className='lg:w-[900px] md:w-[700px] flex md:flex-row flex-col items-center justify-between mx-auto mt-[76px] pb-[83px] gap-7'>
         <div className='w-max flex flex-col gap-[15px] items-center md:items-start'>
           <div className='flex items-center'>
             <Image src={'/logo.svg'} alt='' width={17} height={19} />

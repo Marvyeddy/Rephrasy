@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={'font-avenir overflow-x-hidden'}>{children}</body>
+      <body className={'font-avenir overflow-x-hidden flex flex-col'}>
+        {children}
+      </body>
     </html>
   );
 }
