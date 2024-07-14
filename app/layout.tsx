@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={'font-avenir'}>{children}</body>
+      <body className={'font-avenir overflow-x-hidden'}>{children}</body>
     </html>
   );
 }
