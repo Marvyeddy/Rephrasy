@@ -36,12 +36,15 @@ const Header = () => {
 
       <div className='flex items-center gap-4'>
         <div className='md:flex items-center gap-[29px] hidden'>
-          <Link href={'/'} className='text-base font-bold leading-[26px]'>
+          <Link
+            href={'/'}
+            className='text-base font-bold leading-[26px] hover:text-black/75'
+          >
             Login
           </Link>
           <Link
             href={'/'}
-            className='bg-black rounded-[100px] shadow-sm shadow-[#00000014]'
+            className='bg-black rounded-[100px] shadow-sm shadow-[#00000014] hover:bg-black/75'
           >
             <h2 className='px-[22px] py-[8px] text-white rounded-lg text-base font-bold'>
               Get started

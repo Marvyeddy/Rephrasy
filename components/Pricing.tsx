@@ -55,7 +55,7 @@ const Pricing = () => {
             Unlock more with only the{' '}
             <span className='opacity-50'>AI Detector</span>
           </h2>
-          <button className='w-max rounded-[100px] md:text-base text-sm leading-[26px] font-bold border md:px-[22px] py-2 px-3 border-[#FFFFFF29] bg-black flex items-center gap-2 mt-[19px]'>
+          <button className='w-max rounded-[100px] md:text-base text-sm leading-[26px] font-bold border md:px-[22px] py-2 px-3 border-[#FFFFFF29] bg-black flex items-center gap-2 mt-[19px] hover:bg-black/75'>
             <h2 className='text-white'>Subscribe</h2>
             <Image src={'/ph_sparkle.svg'} alt='' width={16} height={16} />
           </button>
