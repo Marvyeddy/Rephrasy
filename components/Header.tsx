@@ -5,7 +5,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className='h-[101px] py-[27px] md:px-[120px] px-[20px] mt-[1px] flex justify-between items-center absolute w-full z-10'>
+    <div className='h-[101px] py-[27px] md:px-[60px] px-[20px] mt-[1px] flex justify-between items-center absolute w-full z-10 '>
       <div className='w-[165.74px] h-[47px] flex'>
         <Image src={'/logo.svg'} alt='logo' width={27.71} height={30.79} />
         <h2 className='font-sans font-bold md:text-[34.94px] text-[30px] leading-[47.17px] -tracking-[0.06em]'>
